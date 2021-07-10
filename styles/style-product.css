@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
+  justify-content: space-between;
+}
+
+header .buttons {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .buttons a button {
+  width: 70px;
+  height: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 95%;
+  right: 2.5%;
+  left: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#line {
+  height: 3px;
+  width: 95%;
+  background-color: #000;
+  margin: 20px auto;
+}
+
+#btn {
+  width: 70px;
+  height: 50px;
+}
+
+form {
+  font-size: 20px;
+  width: 40%;
+  margin: 50px 0 0 50px;
+}
+
+form p {
+  margin: 20px 0;
+}
+
+form input {
+  margin-left: 20px;
+}
+
+form select {
+  margin-left: 20px;
+}
+
+#sizeForm {
+  display: none;
+}
+
+#furnitureForm {
+  display: none;
+}
+
+#weightForm {
+  display: none;
+}
+/*# sourceMappingURL=style-product.css.map */

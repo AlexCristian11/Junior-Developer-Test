@@ -1,0 +1,19 @@
+@import "./header";
+@import "./footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#delete-product-btn {
+  width: 100px;
+}
+
+#line {
+  height: 3px;
+  width: 95%;
+  background-color: #000;
+  margin: 20px auto;
+}

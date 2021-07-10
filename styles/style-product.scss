@@ -1,0 +1,49 @@
+@import "./header";
+@import "./footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#line {
+  height: 3px;
+  width: 95%;
+  background-color: #000;
+  margin: 20px auto;
+}
+
+#btn {
+  width: 70px;
+  height: 50px;
+}
+
+// Form
+
+form {
+  font-size: 20px;
+  width: 40%;
+  margin: 50px 0 0 50px;
+  p {
+    margin: 20px 0;
+  }
+  input {
+    margin-left: 20px;
+  }
+  select {
+    margin-left: 20px;
+  }
+}
+
+#sizeForm {
+  display: none;
+}
+
+#furnitureForm {
+  display: none;
+}
+
+#weightForm {
+  display: none;
+}
